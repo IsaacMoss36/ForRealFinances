@@ -1,3 +1,8 @@
+html, body, p, h3{
+    padding:0;
+    margin:0;
+}
+
 .nav{
     background-color:#e3ae1e;
     width:2000px;
@@ -19,27 +24,26 @@
 
 }
 .name p{
-    float:left;
     
+    padding-left:10px;
 }
 .navTools{
     display:inline-block;
     margin-left:1500px;
 }
 .navTools p{
-    float:right;
+    
     
 }
 .navTools a{
-    float:right;
+    
     color:white;
     text-decoration:none;
     padding-left:15px;
 }
 .Dashboard{
-    position:absolute;
-    top:20%;
-    left:10%;
+    
+    
     width:300px;
     border:solid 2px orange;
     padding:0px 10px;;
@@ -66,9 +70,8 @@
     
 }
 .Budget{
-    position:absolute;
-    top:20%;
-    left:30%;
+    
+    
     width:300px;
     border:solid 2px orange;
     padding:0px 10px;
@@ -84,9 +87,8 @@
 
 }
 .Checkbooks{
-    position:absolute;
-    top:20%;
-    left:50%;
+    
+    
     width:300px;
     border:solid 2px orange;
     padding:0px 10px;
@@ -103,9 +105,8 @@
 }
 
 .Money{
-    position:absolute;
-    top:20%;
-    left:70%;
+    
+    
     width:300px;
     border:solid 2px orange;
     padding:0px 10px;
@@ -119,4 +120,14 @@
     padding-bottom:0px;
     margin-bottom:0px;
 
+}
+.elements{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    min-height:100vh;
+}
+.elements form{
+    flex-direction:row;
+    
 }
