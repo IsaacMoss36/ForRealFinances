@@ -1,0 +1,122 @@
+.nav{
+    background-color:#e3ae1e;
+    width:2000px;
+    padding:1px;
+    position: absolute;
+    width:100%;
+    left:0;
+}
+.nav p{
+    color:white;
+    padding-left:20px;
+    font-size:16px;
+    padding:4px;
+    margin:0;
+    border:0;
+}
+.name{
+    display:inline-block;
+
+}
+.name p{
+    float:left;
+    
+}
+.navTools{
+    display:inline-block;
+    margin-left:1500px;
+}
+.navTools p{
+    float:right;
+    
+}
+.navTools a{
+    float:right;
+    color:white;
+    text-decoration:none;
+    padding-left:15px;
+}
+.Dashboard{
+    position:absolute;
+    top:20%;
+    left:10%;
+    width:300px;
+    border:solid 2px orange;
+    padding:0px 10px;;
+}
+.Dashboard h3{
+    font-size:30px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+
+}
+.Dashboard p{
+    padding: 0px 10px;
+    margin-bottom:200px;
+}
+.button{
+    background-color:#e3ae1e;
+    border:none;
+    padding: 10px 0px;
+    color:white;
+    margin-left:50px;
+    width:200px;
+    margin-bottom:15px;
+    
+    
+}
+.Budget{
+    position:absolute;
+    top:20%;
+    left:30%;
+    width:300px;
+    border:solid 2px orange;
+    padding:0px 10px;
+}
+.Budget p{
+    padding: 0px 10px;
+    margin-bottom:200px;
+}
+.Budget h3{
+    font-size:30px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+
+}
+.Checkbooks{
+    position:absolute;
+    top:20%;
+    left:50%;
+    width:300px;
+    border:solid 2px orange;
+    padding:0px 10px;
+}
+.Checkbooks p{
+    padding: 0px 10px;
+    margin-bottom:200px;
+}
+.Checkbooks h3{
+    font-size:30px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+
+}
+
+.Money{
+    position:absolute;
+    top:20%;
+    left:70%;
+    width:300px;
+    border:solid 2px orange;
+    padding:0px 10px;
+}
+.Money p{
+    padding: 0px 10px;
+    margin-bottom:200px;
+}
+.Money h3{
+    font-size:30px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+
+}
